@@ -1,8 +1,7 @@
+import java.io.Serializable;
 import java.util.ArrayList;
 
-public class Admin extends User {
-
-
+public class Admin extends User implements Serializable {
 
     public Admin(String username, String password) {
         super(username, password);
@@ -23,4 +22,10 @@ public class Admin extends User {
     public void addStudent (){
 
     }
+
+    public boolean equals (Object o){
+        return super.equals(o);
+    }
+
+
 }

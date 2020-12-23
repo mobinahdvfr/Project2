@@ -1,7 +1,8 @@
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class Student extends User {
+public class Student extends User implements Serializable {
 
     private int money;
     private HashMap<UniClass, Double> classes;
@@ -61,5 +62,9 @@ public class Student extends User {
     public void addClass (UniClass uniClass){
         classes.put(uniClass, 0.0);
         allUnits = allUnits + uniClass.getUnitsNum();
+    }
+
+    public boolean equals (Object o){
+        return super.equals(o);
     }
 }

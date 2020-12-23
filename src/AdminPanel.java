@@ -33,6 +33,8 @@ public class AdminPanel extends JPanel {
     JList<String> students;
     JList<String> professors;
     JPanel centerPanel = new JPanel();
+    JPanel northPanel = new JPanel(new GridLayout(1,4));;
+
     AdminController controller;
 
     public AdminPanel (){
@@ -42,7 +44,6 @@ public class AdminPanel extends JPanel {
         students = new JList<>();
         professors = new JList<>();
         setEast();
-        setNorth();
         listen();
     }
 
@@ -52,14 +53,29 @@ public class AdminPanel extends JPanel {
         showStudents.addActionListener(controller);
         showProfessors.addActionListener(controller);
         selectFoods.addActionListener(controller);
+        setNorth();
+    }
+
+    public void updateIt (){
+        setNorth();
+        this.revalidate();
+        repaint();
+    }
+
+    public void setMainController (GUIController guiController){
+        changeUn.addActionListener(guiController);
+        changePw.addActionListener(guiController);
     }
 
     public void setNorth (){
-        JPanel northPanel = new JPanel(new GridLayout(1,4));
+        this.remove(northPanel);
+        northPanel.removeAll();
         northPanel.add(new JLabel("username:"));
-//        northPanel.add(new JLabel(controller.getUsername()));
+        northPanel.add(new JLabel(controller.getUsername()));
         northPanel.add(new JLabel("password:"));
-//        northPanel.add(new JLabel(controller.getPassword()));
+        northPanel.add(new JLabel(controller.getPassword()));
+        northPanel.revalidate();
+        northPanel.repaint();
         this.add(northPanel, BorderLayout.NORTH);
     }
 

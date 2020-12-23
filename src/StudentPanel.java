@@ -32,7 +32,6 @@ public class StudentPanel extends JPanel {
         super();
         this.setLayout(new BorderLayout());
         setEast();
-        setNorth();
         classes = new JList<>();
         listen();
     }
@@ -45,12 +44,13 @@ public class StudentPanel extends JPanel {
         changePw.addActionListener(controller);
         charge2.addActionListener(controller);
         selectClass.addActionListener(controller);
+        setNorth();
     }
 
     public void setNorth (){
         JPanel northPanel = new JPanel(new GridLayout(1,8));
         northPanel.add(new JLabel("username:"));
-//        northPanel.add(new JLabel(controller.getUsername()));
+        northPanel.add(new JLabel(controller.getUsername()));
         northPanel.add(new JLabel("password:"));
 //        northPanel.add(new JLabel(controller.getPassword()));
         northPanel.add(new JLabel("money:"));

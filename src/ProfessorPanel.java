@@ -45,7 +45,6 @@ public class ProfessorPanel extends JPanel {
         super();
         this.setLayout(new BorderLayout());
         setEast();
-        setNorth();
         classes = new JList<>();
         students = new JList<>();
         ButtonGroup bg = new ButtonGroup();
@@ -83,6 +82,7 @@ public class ProfessorPanel extends JPanel {
         changeScore.addActionListener(controller);
         showInfo.addActionListener(controller);
         classes.addListSelectionListener(controller);
+        setNorth();
     }
 
     public void listen (){

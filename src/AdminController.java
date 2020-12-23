@@ -14,6 +14,22 @@ public class AdminController implements ActionListener {
         this.view.setController(this);
     }
 
+    public void setUsername (String in ){
+        model.setUsername(in);
+    }
+
+    public void setModel (Admin admin){
+        model = admin;
+    }
+
+    public String getUsername (){
+        return model.getUsername();
+    }
+
+    public String getPassword (){
+        return model.getPassword();
+    }
+
     public void setClassesJList (){
 //        if (currentUser.getClasses() != null) {
 //            for (UniClass uniClass : currentUser.getClasses()) {
@@ -67,7 +83,6 @@ public class AdminController implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == view.showClasses){
-            System.out.println("clicked");
             setClassesJList();
             view.centerPanel.removeAll();
             view.centerPanel.add(new JScrollPane(view.classes));
@@ -79,7 +94,6 @@ public class AdminController implements ActionListener {
         }
 
         else if (e.getSource() == view.showStudents){
-            System.out.println("clicked");
             setStudentsJList();
             view.centerPanel.removeAll();
             view.centerPanel.add(new JScrollPane(view.students));
@@ -91,7 +105,6 @@ public class AdminController implements ActionListener {
         }
 
         else if (e.getSource() == view.showProfessors){
-            System.out.println("clicked");
             setProfessorsJList();
             view.centerPanel.removeAll();
             view.centerPanel.add(new JScrollPane(view.professors));
@@ -103,7 +116,6 @@ public class AdminController implements ActionListener {
         }
 
         else if (e.getSource() == view.selectFoods){
-            System.out.println("clicked");
             view.centerPanel.removeAll();
             view.centerPanel.revalidate();
             view.centerPanel.repaint();

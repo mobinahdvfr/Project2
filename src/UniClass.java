@@ -1,10 +1,11 @@
+import java.io.Serializable;
 import java.util.ArrayList;
 
-enum Day {
+enum Day implements Serializable {
     SAT, SUN, MON, TUE, WED
 }
 
-public class UniClass {
+public class UniClass implements Serializable {
 
     private String className;
     private int unitsNum;

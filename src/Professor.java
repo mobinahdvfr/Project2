@@ -1,8 +1,9 @@
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 
-public class Professor extends User{
+public class Professor extends User implements Serializable {
 
     private LinkedHashMap<UniClass,ArrayList<Student>> classesAndStudents;
 
@@ -36,5 +37,9 @@ public class Professor extends User{
 
     public void makeClass (String course, int unitsNum, ArrayList<Day> days, int time, int capacity){
         classesAndStudents.put(UniSystem.addClass(course, unitsNum, days, time, capacity), new ArrayList<>());
+    }
+
+    public boolean equals (Object o){
+        return super.equals(o);
     }
 }

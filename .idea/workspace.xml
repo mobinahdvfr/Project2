@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a778b25-2e9a-4817-b740-259d5afcab75" name="Default Changelist" comment="" />
+    <list default="true" id="7a778b25-2e9a-4817-b740-259d5afcab75" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project2/Admin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project2/Admin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project2/GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project2/GUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project2/GUIController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project2/GUIController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project2/LoginPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project2/LoginPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project2/Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project2/Model.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project2/Professor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project2/Professor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project2/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project2/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project2/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project2/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdminPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdminPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUIController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LoginPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoginPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Professor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Professor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProfessorPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProfessorPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StudentPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StudentPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UniClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UniClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +38,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1lQceyUmaaLxUVkNpAfSPA1KANk" />
   <component name="ProjectViewState">
@@ -63,6 +91,8 @@
       <workItem from="1608098374602" duration="598000" />
       <workItem from="1608106078805" duration="19291000" />
       <workItem from="1608278007387" duration="30119000" />
+      <workItem from="1608650169307" duration="16848000" />
+      <workItem from="1608721305120" duration="16390000" />
     </task>
     <servers />
   </component>
@@ -70,37 +100,41 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1608320305710">
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1608659826925">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1608320305710" />
-    <state width="1493" height="102" key="GridCell.Tab.0.bottom" timestamp="1608322577832">
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1608659826925" />
+    <state x="566" y="297" width="403" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1608661422346">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="102" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608322577832" />
-    <state width="1493" height="102" key="GridCell.Tab.0.center" timestamp="1608322577831">
+    <state x="566" y="297" width="403" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1608661422346" />
+    <state width="1493" height="198" key="GridCell.Tab.0.bottom" timestamp="1608753859618">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="102" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1608322577831" />
-    <state width="1493" height="102" key="GridCell.Tab.0.left" timestamp="1608322577831">
+    <state width="1493" height="198" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608753859618" />
+    <state width="1493" height="198" key="GridCell.Tab.0.center" timestamp="1608753859618">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="102" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1608322577831" />
-    <state width="1493" height="102" key="GridCell.Tab.0.right" timestamp="1608322577831">
+    <state width="1493" height="198" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1608753859618" />
+    <state width="1493" height="198" key="GridCell.Tab.0.left" timestamp="1608753859618">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="102" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1608322577831" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1608278239192">
+    <state width="1493" height="198" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1608753859618" />
+    <state width="1493" height="198" key="GridCell.Tab.0.right" timestamp="1608753859618">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1608278239192" />
+    <state width="1493" height="198" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1608753859618" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1608650412347">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1608650412347" />
     <state x="499" y="192" key="extract.method.dialog" timestamp="1608116267703">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="192" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1608116267703" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1608286467995">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1608737597046">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1608286467995" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1608737597046" />
   </component>
 </project>
